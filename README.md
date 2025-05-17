@@ -16,9 +16,6 @@ Um jogo de RPG Solo e Ferramenta de Criação de Campanhas utilizando Unity e a 
   - [Engenharia de Prompts e Processamento de Respostas](#engenharia-de-prompts-e-processamento-de-respostas)
   - [Criação Inicial de Campanha](#criação-inicial-de-campanha)
 - [O Papel da IA (API Gemini)](#o-papel-da-ia-api-gemini)
-- [Próximos Passos / Roadmap](#próximos-passos--roadmap)
-- [Como Começar (Em Desenvolvimento)](#como-começar-em-desenvolvimento)
-- [Licença](#licença)
 
 ## Introdução
 
@@ -136,7 +133,7 @@ Um leitor de JSON na Unity processa a resposta da API, extrai o JSON relevante e
 ![image](https://github.com/user-attachments/assets/8ddcf912-eb3a-4ccc-986e-c5e639f1e38f)
 *Json Importer que lidará com os dados recebidos em json*
 
-https://github.com/user-attachments/assets/294abf31-9488-4432-9aa4-a411f12cbdb0
+https://github.com/user-attachments/assets/845c972d-3bc9-46be-af91-1d4ecb15dd13
 *Vídeo: Fluxo de criação inicial de campanha, geração e exibição de dados pela IA.*
 
 ## O Papel da IA (API Gemini)
