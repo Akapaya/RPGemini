@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0703d6e99714ba4fa52dd590b415d44, type: 3}
+  m_Name: NPC3
+  m_EditorClassIdentifier: 
+  Name: Himiko Toga
+  Background: "Ap\xF3s quase ser presa por seu fasc\xEDnio por sangue, Aizawa a recrutou
+    para a 1-C, ensinando-a a usar seu Quirk para rastrear feridos em miss\xF5es."
+  Visual: Igual ao canon, mas com uniforme da U.A. modificado com faixas vermelhas.
+    Carrega uma seringa estilizada como arma.
+  Ambition: "Quer salvar vidas sem precisar ferir ningu\xE9m para obter sangue"
+  Quirk: "Transforma\xE7\xE3o Sangu\xEDnea \u2013 Pode se transformar em quem cujo
+    sangue consumiu, mas precisa de doses regulares para manter a sanidade."
+  MaxHealth: 130
+  Health: 130
+  Strength: 4
+  Dexterity: 8
+  Constitution: 3
+  Intelligence: 4
+  Charisma: 1
+  InventaryList:
+  - "Seringas est\xE9reis"
+  - "barras energ\xE9ticas"
+  - kit de primeiros socorros
+  SpecialAbility:
+  - "Farol de Sangue \u2013 Rastreia feridos em 100m de dist\xE2ncia usando o cheiro
+    de sangue."

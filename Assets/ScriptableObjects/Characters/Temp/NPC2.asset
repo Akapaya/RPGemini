@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0703d6e99714ba4fa52dd590b415d44, type: 3}
+  m_Name: NPC2
+  m_EditorClassIdentifier: 
+  Name: Lilith "Venomancer" Voss
+  Background: "Seu Quirk surgiu quando, aos 8 anos, envenenou sem querer um colega
+    de escola. Foi isolada at\xE9 ser recrutada pela U.A. para controle de habilidades
+    t\xF3xicas."
+  Visual: Cabelos verdes com mechas roxas, olhos de cobra, e unhas longas pintadas
+    de preto. Veste um casaco de couro ajustado.
+  Ambition: "Deseja usar venenos para curar doen\xE7as"
+  Quirk: "Gera\xE7\xE3o de Veneno \u2013 Produz toxinas por meio da pele (n\xEDveis
+    variam de paralisia a morte). Precisa beber ant\xEDdotos diariamente para n\xE3o
+    se intoxicar."
+  MaxHealth: 140
+  Health: 140
+  Strength: 2
+  Dexterity: 5
+  Constitution: 3
+  Intelligence: 7
+  Charisma: 3
+  InventaryList:
+  - "Ant\xEDdotos"
+  - luvas especiais
+  - "di\xE1rio de f\xF3rmulas"
+  SpecialAbility:
+  - "N\xE9voa T\xF3xica \u2013 Libera uma nuvem de g\xE1s paralisante (3x/dia)."

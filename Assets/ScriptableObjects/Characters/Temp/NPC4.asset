@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0703d6e99714ba4fa52dd590b415d44, type: 3}
+  m_Name: NPC4
+  m_EditorClassIdentifier: 
+  Name: Anya Petrova
+  Background: " Uma \xF3rf\xE3 talentosa que descobriu seus poderes m\xE1gicos ainda
+    crian\xE7a. Foi admitida em Eldoria com uma bolsa de estudos e anseia por provar
+    seu valor."
+  Visual: "Cabelos castanhos encaracolados, olhos verdes curiosos, veste o uniforme
+    padr\xE3o da academia um pouco desajustado e sempre carrega um livro de feiti\xE7os
+    iniciantes."
+  Ambition: "Dominar a magia elemental (especialmente a bot\xE2nica m\xE1gica) e
+    descobrir a verdade sobre seu passado."
+  Quirk: "Bot\xE2nica M\xE1gica (conhecimento de ervas m\xE1gicas, cria\xE7\xE3o
+    de po\xE7\xF5es simples e manipula\xE7\xE3o de plantas com magia)."
+  MaxHealth: 25
+  Health: 25
+  Strength: 12
+  Dexterity: 15
+  Constitution: 14
+  Intelligence: 16
+  Charisma: 10
+  InventaryList: []
+  SpecialAbility: []
