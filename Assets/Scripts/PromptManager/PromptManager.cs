@@ -9,19 +9,19 @@ using UnityEngine.UIElements;
 
 public class PromptManager : MonoBehaviour
 {
-    private string apiKey = "AIzaSyCKA3XNXBgnabXNMqIFoZNBpsHWoR4Tyqg"; // Replace with your actual API key
+    private string apiKey = "Your API Key"; // Replace with your actual API key
     private string apiUrl = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent";
 
     public Action<string> OnReceivePrompt;
 
     public static PromptManager instance;
 
-    public void Awake() // Use Awake para garantir que a instância seja definida cedo
+    public void Awake() // Use Awake para garantir que a instÃ¢ncia seja definida cedo
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject); // Opcional: mantém o objeto entre cenas
+            DontDestroyOnLoad(gameObject); // Opcional: mantÃ©m o objeto entre cenas
         }
         else if (instance!= this)
         {
@@ -31,7 +31,7 @@ public class PromptManager : MonoBehaviour
 
     public void Start()
     {
-        GenerateText($"Você é um mestre de RPG que pegou um RPG em andamento o contexto do RPG atual é: {SessionManager.instance.SessionData.SessionArcDescription}, e o jogador é {SessionManager.instance.SessionData.PlayerCharacter.Name}, dê um resumo do e espere a ação do usuario.");
+        GenerateText($"VocÃª Ã© um mestre de RPG que pegou um RPG em andamento o contexto do RPG atual Ã©: {SessionManager.instance.SessionData.SessionArcDescription}, e o jogador Ã© {SessionManager.instance.SessionData.PlayerCharacter.Name}, dÃª um resumo do e espere a aÃ§Ã£o do usuario.");
     }
 
     /// <summary>
@@ -164,7 +164,7 @@ public class PromptManager : MonoBehaviour
             $"Nome: {firstCharacter.Name}\n" +
             $"Quirk: {firstCharacter.Quirk}\n" +
             $"Health: {firstCharacter.Health}\n" +
-            $"Força: {secondCharacter.Strength}\n" +
+            $"ForÃ§a: {secondCharacter.Strength}\n" +
             $"Destreza: {secondCharacter.Dexterity}\n" +
 
         $"###########\n" +
@@ -176,26 +176,26 @@ public class PromptManager : MonoBehaviour
         $"Consistencia: {firstCharacter.Constitution}\n" +
 
         $"###########\n" +
-        $"Descreva APENAS a cena deles e o resultado desta ação para o contexto do RPG.";
+        $"Descreva APENAS a cena deles e o resultado desta aÃ§Ã£o para o contexto do RPG.";
 
         GenerateText(prompt);
     }
 
     public void DefendNPCPrompt(CharacterDataSO firstCharacter)
     { 
-        string prompt = $"{firstCharacter.Name} entrou em posição de defesa no combate" +
+        string prompt = $"{firstCharacter.Name} entrou em posiÃ§Ã£o de defesa no combate" +
             $"\n" +
             $"########### \n" +
             $"O primeiro personagem tem o status atual de :\n" +
             $"Nome: {firstCharacter.Name}\n" +
             $"Quirk: {firstCharacter.Quirk}\n" +
             $"Health: {firstCharacter.Health}\n" +
-            $"Força: {firstCharacter.Strength}\n" +
+            $"ForÃ§a: {firstCharacter.Strength}\n" +
             $"Destreza: {firstCharacter.Dexterity}\n" +
             $"Consistencia: {firstCharacter.Constitution}\n" +
 
         $"###########\n" +
-        $"Descreva APENAS a cena dele e o resultado desta ação para o contexto do RPG.";
+        $"Descreva APENAS a cena dele e o resultado desta aÃ§Ã£o para o contexto do RPG.";
 
         GenerateText(prompt);
     }
@@ -210,7 +210,7 @@ public class PromptManager : MonoBehaviour
             $"O primeiro personagem tem o status atual de :\n" +
             $"Nome: {firstCharacter.Name}\n" +
             $"Health: {firstCharacter.Health}\n" +
-            $"Força: {secondCharacter.Strength}\n" +
+            $"ForÃ§a: {secondCharacter.Strength}\n" +
             $"Destreza: {secondCharacter.Dexterity}\n" +
 
         $"###########\n" +
@@ -222,7 +222,7 @@ public class PromptManager : MonoBehaviour
         $"Consistencia: {firstCharacter.Constitution}\n" +
 
         $"###########\n" +
-        $"Descreva APENAS a cena deles e o resultado desta ação para o contexto do RPG.";
+        $"Descreva APENAS a cena deles e o resultado desta aÃ§Ã£o para o contexto do RPG.";
 
         GenerateText(prompt);
     }
@@ -237,7 +237,7 @@ public class PromptManager : MonoBehaviour
             $"Background: {firstCharacter.Background}\n" +
             $"Quirk: {firstCharacter.Quirk}\n" +
             $"Health: {firstCharacter.Health}\n" +
-            $"Força: {firstCharacter.Strength}\n" +
+            $"ForÃ§a: {firstCharacter.Strength}\n" +
             $"Destreza: {firstCharacter.Dexterity}\n" +
             $"Consistencia: {firstCharacter.Constitution}\n" +
             $"Inteligencia: {firstCharacter.Intelligence}\n" +
@@ -249,7 +249,7 @@ public class PromptManager : MonoBehaviour
         $"Background: {secondCharacter.Background}\n" +
         $"Quirk: {secondCharacter.Quirk}\n" +
         $"Health: {secondCharacter.Health}\n" +
-        $"Força: {secondCharacter.Strength}\n" +
+        $"ForÃ§a: {secondCharacter.Strength}\n" +
         $"Destreza: {secondCharacter.Dexterity}\n" +
         $"Consistencia: {secondCharacter.Constitution}\n" +
         $"Inteligencia: {secondCharacter.Intelligence}\n" +
@@ -263,7 +263,7 @@ public class PromptManager : MonoBehaviour
     public void StealthNPCPrompt(CharacterDataSO firstCharacter)
     {
         int rollD20Character1 = UnityEngine.Random.Range(0, 21);
-        string prompt = $"{firstCharacter.Name} está tentando usar sua furtividade na cena atual ele rodou {rollD20Character1} no d20." +
+        string prompt = $"{firstCharacter.Name} estÃ¡ tentando usar sua furtividade na cena atual ele rodou {rollD20Character1} no d20." +
             $"\n" +
             $"########### \n" +
             $"O primeiro personagem tem o status atual de :\n" +
@@ -414,31 +414,31 @@ public class PromptManager : MonoBehaviour
         if (dialogueData.Target != "Everyone")
         {
             var target = SessionManager.instance.SessionData.CharactersData.First(o => o.Name == dialogueData.Target);
-            targetComplement = $"O alvo da fala é o personagem {target.Name}" +
+            targetComplement = $"O alvo da fala Ã© o personagem {target.Name}" +
                 $"ele tem os seguintes status:" +
                 $"Nome: {target.Name}\n" +
                 $"Background: {target.Background}\n" +
                 $"Quirk: {target.Quirk}\n" +
                 $"Carisma: {target.Charisma}\n" +
-                $"O relacionamento entre eles de 0-100 é: {UnityEngine.Random.Range(0, 101)}";
+                $"O relacionamento entre eles de 0-100 Ã©: {UnityEngine.Random.Range(0, 101)}";
         }    
         else
         {
-            targetComplement = "O personagem falou para todos na cena, esses personagens são: \n";
+            targetComplement = "O personagem falou para todos na cena, esses personagens sÃ£o: \n";
             foreach (var character in SessionManager.instance.SessionData.InSceneCharactersName)
             {
                 var target = SessionManager.instance.SessionData.CharactersData.First(o => o.Name == character);
-                targetComplement += $"Um dos personagens é {target.Name}" +
+                targetComplement += $"Um dos personagens Ã© {target.Name}" +
                     $"ele tem os seguintes status:" +
                     $"Nome: {target.Name}\n" +
                     $"Background: {target.Background}\n" +
                     $"Quirk: {target.Quirk}\n" +
                     $"Carisma: {target.Charisma}\n" +
-                    $"O relacionamento entre eles de 0-100 é: {UnityEngine.Random.Range(0,101)} \n";
+                    $"O relacionamento entre eles de 0-100 Ã©: {UnityEngine.Random.Range(0,101)} \n";
             }
         }
 
-        string prompt = $"Essa é uma cena de RPG de uma fala, o contexto desta cena é {SessionManager.instance.SessionData.SessionArcDescription}" +
+        string prompt = $"Essa Ã© uma cena de RPG de uma fala, o contexto desta cena Ã© {SessionManager.instance.SessionData.SessionArcDescription}" +
             $"########### \n" +
             $"{player.Name} falou para {dialogueData.Target} {dialogueData.Prompt}" +
             $"\n" +
@@ -458,7 +458,7 @@ public class PromptManager : MonoBehaviour
 
         if(ResponseFormat == string.Empty)
         {
-            Debug.LogError("Älgum erro no formato da resposta");
+            Debug.LogError("Ã„lgum erro no formato da resposta");
             return;
         }
         prompt += ResponseFormat;
@@ -474,7 +474,7 @@ public class PromptManager : MonoBehaviour
                 {
                     return $"########### \n" +
                     $"Descreva APENAS a cena deles e o resultado para o contexto do RPG e caso algum ouvinte tenha alguma outra fala junto com essa." +
-                    $"Por fim escreva o impacto em cada ouvinte para a relação da seguinte formula:" +
+                    $"Por fim escreva o impacto em cada ouvinte para a relaÃ§Ã£o da seguinte formula:" +
                     $"Relacionamento:" +
                     $"ObjetoJson" +
                     $"{{" +
@@ -559,7 +559,7 @@ public enum Mood
     Empolgado,
     Frustrado,
     Culpado,
-    Esperançoso,
+    EsperanÃ§oso,
     Solitario,
     Nostalgico,
     Otimista,
