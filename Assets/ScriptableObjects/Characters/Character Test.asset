@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0703d6e99714ba4fa52dd590b415d44, type: 3}
+  m_Name: Character Test
+  m_EditorClassIdentifier: 
+  Name: Greg
+  Background: "Meu personagem \xE9 de uma familia simples sem muito diferencial,
+    por\xE9m ele se isolou cedo de muita gente, mesmo os vendo diariamente amigos
+    e familiares mal conversava, o fato dele ter sofrido bullyng por n\xE3o entender
+    seu quirk faz dele meio timido e um pouco dificil de socializar, mas ele tenta
+    ao m\xE1ximo ajudar.  Ele tem receio de n\xE3o ser o bastante para as pessoas
+    e n\xE3o conseguir fazer nada, pois ele tinha uma irm\xE3 mais nova a qual cuidava
+    muito bem e a amava, mas um dia voltando da escola, alguns homens implicaram
+    com ele e sua irm\xE3 tentou protege-lo, com isso um dos homens acaba matando
+    sua irm\xE3 e Greg se sente extremamente culpado por n\xE3o ter conseguido salva-la,
+    muito abalado e sem entender, sua irm\xE3 come\xE7a a desaparecer e por algum
+    motivo no lugar dela aparece uma bala branca especial, que \xE9 a alma de sua
+    irm\xE3. "
+  Visual: "com cabelo castanho escuro raspado dos lados e grande em cima, formando
+    uma ondinha. Ele costuma vestir cal\xE7as jeans escuras, t\xEAnis largo com padr\xE3o
+    xadrez preto e branco, camisa branca e, quando o clima n\xE3o est\xE1 muito quente,
+    uma blusa por cima. Ele tamb\xE9m usa alguns an\xE9is e pulseiras como acess\xF3rios."
+  Ambition: 
+  Quirk: "Conjura\xE7\xE3o abissal "
+  MaxHealth: 160
+  Health: 160
+  Strength: 4
+  Dexterity: 4
+  Constitution: 6
+  Intelligence: 3
+  Charisma: 3
+  InventaryList:
+  - "Bala da alma da irm\xE3 x1"
+  - Mochila comum x1
+  - Dinheiro x200
+  - Celular x1
+  - Fone de ouvido x1
+  SpecialAbility: []

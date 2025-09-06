@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9896018c285a509438ebf7089075e5c2, type: 3}
+  m_Name: "Ecos da Ru\xEDna"
+  m_EditorClassIdentifier: 
+  SessionName: College
+  SessionDescription: 
+  SessionArcDescription: "Voc\xEA est\xE1 na sua sala, alguns colegas est\xE3o juntos
+    tamb\xE9m, todos voc\xEAs est\xE3o esperando a aula come\xE7ar, uma aula sobre
+    po\xE7\xF5es magicas, com a professora Elort."
+  LastLogs: []
+  PlayerCharacter: {fileID: 11400000, guid: 8ba51fef84b46fb4daf540e4d5702a21, type: 2}
+  CharactersData:
+  - {fileID: 11400000, guid: f21e7ac988988474e9c73ec299c50fa1, type: 2}
+  - {fileID: 11400000, guid: f010d846f10d7f242b90ef3f1ba4b4ca, type: 2}
+  InSceneCharactersName:
+  - Jax Riley
+  - Lena Volkov

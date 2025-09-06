@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9896018c285a509438ebf7089075e5c2, type: 3}
+  m_Name: Session
+  m_EditorClassIdentifier: 
+  SessionName: My Hero Academia RPG
+  SessionDescription: "Tema Central: \"Poderes perigosos podem salvar vidas \u2013
+    se usados com coragem e compaix\xE3o.\""
+  SessionArcDescription: "A Classe 1-C, vista com desconfian\xE7a por seus Quirks
+    vilanescos, enfrenta uma s\xE9rie de ataques misteriosos onde vil\xF5es com habilidades
+    de desintegra\xE7\xE3o id\xEAnticas \xE0s de Zara Vorn semeiam caos. Enquanto
+    a m\xEDdia e o p\xFAblico culpam Zara, a turma precisa provar sua inoc\xEAncia,
+    desvendar uma trama de corrup\xE7\xE3o e salvar a U.A. de um ataque devastador."
+  LastLogs: []
+  PlayerCharacter: {fileID: 11400000, guid: cf0ff2709ae5c304f8c42a3b9e7f4685, type: 2}
+  CharactersData:
+  - {fileID: 11400000, guid: 1915c069a50b6b740b152661fdfd06fe, type: 2}
+  - {fileID: 11400000, guid: 47833c23a57cde64daec15eee28a0b4b, type: 2}
+  - {fileID: 11400000, guid: 309fa8ea58551a84ab84fca354955a8c, type: 2}
+  InSceneCharactersName:
+  - Kuro Shade
+  - Lilith "Venomancer" Voss
+  - Himiko Toga

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0703d6e99714ba4fa52dd590b415d44, type: 3}
+  m_Name: NPC5
+  m_EditorClassIdentifier: 
+  Name: Jax Riley
+  Background: "Filho de uma linhagem de magos de batalha, por\xE9m ele perdeu a voz,
+    Kael sente a press\xE3o de honrar o legado familiar. Ele \xE9 impulsivo e tem
+    facilidade com magias ofensivas."
+  Visual: "Cabelos loiros espetados, olhos azuis intensos, veste o uniforme da academia
+    com um toque de rebeldia e sempre tem uma varinha de madeira de carvalho \xE0
+    m\xE3o."
+  Ambition: "Tornar-se um mago de batalha renomado e superar as expectativas de sua
+    fam\xEDlia."
+  Quirk: "Evoca\xE7\xE3o Elemental (foco em magia de raio e vento, ataques m\xE1gicos
+    diretos)."
+  MaxHealth: 30
+  Health: 30
+  Strength: 14
+  Dexterity: 13
+  Constitution: 16
+  Intelligence: 12
+  Charisma: 8
+  InventaryList: []
+  SpecialAbility: []

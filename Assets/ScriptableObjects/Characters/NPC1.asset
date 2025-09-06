@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0703d6e99714ba4fa52dd590b415d44, type: 3}
+  m_Name: NPC1
+  m_EditorClassIdentifier: 
+  Name: Kuro Shade
+  Background: "Filho de um her\xF3i reformado, seu Quirk manifestou-se durante um
+    inc\xEAndio onde ele involuntariamente \"engoliu\" as sombras de pessoas pr\xF3ximas,
+    deixando-as inconscientes. Foi acusado de colaborar com vil\xF5es, apesar de
+    ter salvado vidas."
+  Visual: "Cabelo prateado, olhos completamente negros, pele p\xE1lida e roupas sempre
+    em tons de cinza. Usa uma m\xE1scara respirat\xF3ria que esconde metade do rosto."
+  Ambition: "Quer provar que as sombras podem salvar, n\xE3o s\xF3 assustar."
+  Quirk: "Manipula\xE7\xE3o de Sombras \u2013 Pode se fundir a sombras para se teleportar
+    ou criar armas s\xF3lidas a partir delas. Em excesso, perde a pr\xF3pria sombra
+    temporariamente, ficando vulner\xE1vel \xE0 luz."
+  MaxHealth: 150
+  Health: 150
+  Strength: 3
+  Dexterity: 6
+  Constitution: 4
+  Intelligence: 5
+  Charisma: 2
+  InventaryList:
+  - "M\xE1scara de g\xE1s"
+  - "caderno de estrat\xE9gias"
+  - canivete
+  SpecialAbility:
+  - "Garra das Trevas \u2013 Cria garras de sombra que ignoram armaduras."
